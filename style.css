@@ -1,0 +1,297 @@
+@font-face {
+    font-family: "GT Sectra Fine Book";
+    src: url("//db.onlinewebfonts.com/t/695c262bacc7d6849ba6f9403d34bf56.eot");
+    src: url("//db.onlinewebfonts.com/t/695c262bacc7d6849ba6f9403d34bf56.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/695c262bacc7d6849ba6f9403d34bf56.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/695c262bacc7d6849ba6f9403d34bf56.woff") format("woff"), url("//db.onlinewebfonts.com/t/695c262bacc7d6849ba6f9403d34bf56.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/695c262bacc7d6849ba6f9403d34bf56.svg#GT Sectra Fine Book") format("svg");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=IBM+Plex+Serif:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background-color: #112331;
+    font-family: 'Poppins', sans-serif;
+}
+
+span,
+.forgotPass {
+    cursor: pointer;
+}
+
+.form-row-field {
+    color: rgb(128, 139, 147);
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.labelSelected {
+    top: -5px !important;
+    font-size: 12px !important;
+    color: #003333 !important;
+    font-weight: 400 !important;
+}
+
+#passwordField:focus~label,
+#username:focus~label {
+    top: -5px;
+    font-size: 12px;
+    color: #003333;
+    font-weight: 400;
+}
+
+.spanLink {
+    width: 120px;
+    border-radius: 4px;
+    height: 40px;
+    background: rgb(1, 167, 129);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.spanLinkLang {
+    margin-left: 20px;
+    width: 120px;
+    background: transparent;
+    border: 1px solid rgb(88, 104, 113);
+    border-radius: 4px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #fff;
+    gap: 25px;
+    font-size: 15px;
+}
+
+.headingLogin {
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 26px;
+    text-align: left !important;
+}
+
+.formContainer {
+    width: 400px;
+}
+
+.dontAccountText {
+    background: rgb(19, 69, 76);
+    border-radius: 4px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    padding: 14px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.linkNewAccount {
+    color: #217af2;
+    cursor: pointer;
+    font-size: inherit;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+form {
+    max-width: 500px;
+    margin-top: 0px;
+    position: relative;
+    width: 100%;
+}
+
+::placeholder {
+    color: #566367;
+    font-size: 14px;
+}
+
+form input {
+    background-color: rgb(23, 45, 62);
+    outline: none;
+    border: 0;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    height: 40px;
+    padding: 0 35px 0 14px;
+    width: 100%;
+}
+
+.formWrapperInputDetailsPass {
+    margin-top: 25px;
+}
+
+form .formWrapperInputDetailsMainInput,
+form .formWrapperInputDetailsPass {
+    position: relative;
+}
+
+form .eyeForm {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    color: #6d6e71;
+}
+
+.forgotPass {
+    position: relative;
+    float: left;
+    text-align: left;
+    margin-top: 25px;
+    color: rgb(1, 167, 129);
+    font-size: 13px;
+}
+
+#footer {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: rgb(71, 77, 87);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerOne {
+    box-sizing: border-box;
+    margin: 0px;
+    min-width: 0px;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 11px;
+    text-align: center;
+    padding: 12px 16px;
+}
+
+.footerLoginButton {
+    float: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.spanBut {
+    color: #808285;
+    font-size: 10px;
+    line-height: .875rem;
+    padding-top: 2.5rem;
+    text-align: center;
+}
+
+.spanBut span {
+    color: #217af2;
+}
+
+.click_login_submit {
+    width: 100%;
+    border-radius: 4px;
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: rgb(1, 167, 129);
+    color: rgb(255, 255, 255);
+    border: 0px;
+    font-size: 15px;
+}
+
+.form-section {
+    margin-top: 45px;
+}
+
+#popupBox {
+    background: rgb(0 0 0 / 70%);
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    top: 0;
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+#popupBoxMsg {
+    width: 40%;
+    min-width: 300px;
+    height: auto;
+    min-height: 75px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 50px;
+    color: #d10505;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#popupBoxClose {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+input,
+input:focus {
+    outline: 0px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.chatoption {
+    background-color: #03a57f !important;
+    color: #ffffff !important;
+    fill: #ffffff !important;
+    padding: 0.92857rem 1.57143rem;
+    border-radius: 999rem;
+    bottom: 0;
+    position: absolute;
+    font-size: 1.07143rem;
+    border: none !important;
+    font-weight: 600;
+    box-sizing: border-box;
+    right: 15px;
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+    form {
+        width: auto;
+    }
+    .sm-my-4 {
+        margin-top: 25px;
+    }
+    .content-cen {
+        justify-content: center !important;
+        display: flex;
+    }
+}
